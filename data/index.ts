@@ -30,7 +30,7 @@ export const allProjects: Project[] = [
     isAcademic: true,
   },
   {
-    title: "Gamezen",
+    title: "GameZen",
     description: "Android app for an e-commerce of board games. Project for my High School Diploma",
     image: "images/projects/gamezen.png",
     category: "mobile",
