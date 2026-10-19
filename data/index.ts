@@ -12,6 +12,15 @@ export interface Project {
 
 export const allProjects: Project[] = [
   {
+    title: "APTUS",
+    description: "MSc Thesis project - Blockchain-based framework for luxury watches authenticity, provenance and traceability",
+    image: "images/projects/aptus.png",
+    category: "web",
+    tags: ["Solidity", "TypeScript"],
+    githubUrl: "https://github.com/danielemonaldi/MSc-Thesis-APTUS",
+    isAcademic: true,
+  },
+  {
     title: "PyTimegrapher",
     description: "Timegrapher app that analyzes mechanical watch accuracy",
     image: "images/projects/pytimegrapher.png",
@@ -46,8 +55,8 @@ export const educationItems: TimelineItem[] = [
   {
     title: "MSc In Computer Science",
     subtitle: "University of Camerino, Camerino, Italy",
-    period: "2024 - now",
-    description: "-",
+    period: "2024 - 2026",
+    description: "Software Development & Technologies",
   },
   {
     title: "Bachelor in IT for Digital Communication",
